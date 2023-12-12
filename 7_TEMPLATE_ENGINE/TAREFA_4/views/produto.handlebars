@@ -1,0 +1,10 @@
+<div>
+   <h1>Bem vindo a tela de Produtos!</h1>
+   {{#each produtos}}
+   <p> Nome: {{this.name}}</p>
+   <p> Valor: {{this.valor}}</p>
+   <p> Descricao:{{this.descricao}}</p>
+   <a href={{this.detalhes}}>Clique para mais detalhes do produto</a>
+  
+   {{/each}}
+</div>
